@@ -1,0 +1,100 @@
+Instalar NodeJS e npm
+Instalar Visual Studio Code
+
+Arquitetura de Aplicação
+
+BackEnd
+
+- Regras de Negócio;
+- Conexão Banco de Dados;
+- Envio de e-mail;
+- Comunicação com webservices;
+- Autenticação do usuário;
+- Criptografia e Segurança;
+
+Estrutura de Dados - JSON (Javascript Object Noctaction) 
+
+Transmissão via JSON para o Front-End
+
+
+Front-End WEB ou MOBILE ou SERVIÇOS Externos
+
+
+1º Passo - Definir a pasta do seu projeto
+2º Abrir o PowerShell, como administrador do windows
+3º Digitar npm init -y   */Para dar as devidas permissões de escrita na pasta e criação do Arquivo JSON referente ao NODE.JS/*
+4º Instalar o framework Express.
+
+Abordagem Tradicional
+
+Navegador --> Requisição -> HTML, CSS, JavaScript --> Resposta(HTML) ---> Navegador
+
+Na abordagem tradicional, a cada requisição, o servidor retorna o conteúdo completo da página, contendo todo HTML e CSS.
+
+Essa abordagem limita o front-end para o browser já que o aplicativo mobile ou serviços externos não vão conseguir interpretar o HTML
+
+Abordagem de SPA
+(single-page applications)
+
+Navegador (HTML,CSS,JavaScript) --> Requisição -- Servidor NodeJs(BackEnd) --> Resposta(JSON) --> Navegador(HTML,CSS,JavaScript)
+
+Na abordagem de SPA, as requisições trazem apenas dados como respostas e, com esses dados o front-end pode preencher as informações em trela.
+
+A página nunca recarrega, otimizando a performance e dando vida ao conceito de SPA. Retornando apenas JSON podemos ter qua
+quantos front-ends quisermos.
+
+REACT( FRAMEWORK DO JAVASCRIPT PARA FRONT-END WEB)
+
+5º Passo - Criar procedimento do React dentro do PowerShell
+
+
+REACT NATIVE (FRAMEWORK DO JAVASCRIPT PARA FRONT-END APP ANDROID E IOS)
+
+Abordagem Tradicional
+
+IOS - Objective-C e SWIFT gerar arquivos .ipa
+ANDROID - JAVA E KOTLIN gerar arquivos .apk
+
+Na abordagem tradicional, criamos uma aplicação para IOS e outra para Android, e nesses casos, 
+o trabalho se torna repetido tanto para criação quanto para as alterações no projeto. 
+
+Abordagem do React Nativa
+
+Todo o código feito é em JavaScript, esse código não é convertido em código nátivo, melhor do que isso o dispositivo passa a
+entender o código JavaScript e a interface gerada é totalmente nativa.
+
+Usar o Figma e Photopeia
+
+
+/** *
+ *  Rota / Recurso
+ */
+ /**
+  * Métodos HTTP:
+  * 
+  * GET: Buscar/Listar informação do back-end
+  * POST: Criar ou cadastrar uma informação no back-end
+  * PUT: Alterar uma informação no back-end
+  * DELETE: Deleter uma informação no back-end
+  */
+
+/**
+ * Tipos de parâmetros:
+ * 
+ * Query: Parâmetros nomeados enviados na rotas após "?" ( Filtros, Paginação)
+ * Route Params: Parâmetros utilizados para identificar recursos
+ * Request Body: Corpo da Requisição, utiulizado para criar ou alterar recursos.
+ */
+
+ /*
+ *SQL : MySql, SQLite, PostgreSQL, Oracle, Microsoft SQL Server
+ *NoSql : MongoDB, CouchDB, etc.
+ 
+ /**
+  * Driver: SELECT * FROM users
+  * Query Builder: table('users').select(*).where()
+  */
+ 
+
+
+
